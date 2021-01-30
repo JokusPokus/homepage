@@ -25,7 +25,7 @@ SECRET_KEY = 'k1#=xgxuigwyvb0v@f6^z_#%zhot!@(qzx1k)$9#d3ews&4*_-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jokuspokus.com', 'www.jokuspokus.com']
 
 
 # Application definition
