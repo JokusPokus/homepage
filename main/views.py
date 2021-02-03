@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 
 def welcome(request):
-    return render(request, 'main/welcome.html')
+    return render(request, 'main/index.html')
