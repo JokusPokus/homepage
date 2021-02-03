@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48f0fcaa-26cb-494d-b528-d61faf4df4a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/css/welcome.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/welcome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,6 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -75,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612005086197</updated>
-      <workItem from="1612005087431" duration="8108000" />
+      <workItem from="1612005087431" duration="8397000" />
     </task>
     <servers />
   </component>
