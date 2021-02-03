@@ -90,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: transparent;
 }
 
 .overlay-mf {
@@ -100,7 +100,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+
 }
 
 .paralax-mf {
@@ -160,7 +160,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: rgb(45, 164, 168);
   margin: 0 auto;
 }
 
@@ -260,7 +260,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px rgb(45, 164, 168);
   display: block;
 }
 
@@ -714,7 +714,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: rgb(45, 164, 168);
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
