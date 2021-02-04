@@ -61,3 +61,14 @@ button {
   outline: none;
 }
 
+#jokus-pokus {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  height: 90px;
+}
+#jokus-pokus > a img {
+  float: right;
+  height: 100%;
+}
+

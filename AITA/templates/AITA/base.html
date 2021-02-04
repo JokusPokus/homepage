@@ -11,6 +11,13 @@
 
 </head>
 <body>
-    {% block content %}{% endblock %}
+{% block content %}{% endblock %}
+
+<div id="jokus-pokus">
+    <a href="{% url 'main:welcome' %}">
+        <img src="{% static 'nimAI/img/favicon.png' %}" alt="">
+    </a>
+</div>
+
 </body>
 </html>

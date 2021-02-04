@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f0fcaa-26cb-494d-b528-d61faf4df4a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AITA/static/AITA/img/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AITA/static/AITA/css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/AITA/static/AITA/css/basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AITA/static/AITA/css/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/AITA/static/AITA/css/landing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AITA/templates/AITA/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/AITA/templates/AITA/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +39,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AITA/static/AITA/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\schmi\PycharmProjects\homepage\AITA\static\AITA\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\schmi\PycharmProjects\homepage\AITA\static\AITA" />
       <recent name="C:\Users\schmi\PycharmProjects\homepage\nimAI\static\nimAI" />
@@ -83,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612005086197</updated>
-      <workItem from="1612005087431" duration="44891000" />
+      <workItem from="1612005087431" duration="45893000" />
     </task>
     <servers />
   </component>

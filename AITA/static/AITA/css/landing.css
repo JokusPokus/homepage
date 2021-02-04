@@ -64,3 +64,14 @@ button:hover > body {
   /* CURRENT way. */
   scroll-snap-align: start;
 }
+
+#jokus-pokus {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  height: 90px;
+}
+#jokus-pokus > a img {
+  float: right;
+  height: 100%;
+}
