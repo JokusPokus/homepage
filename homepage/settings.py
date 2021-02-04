@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY') or 'k1#=xgxuigwyvb0v@f6^z_#%zhot!@(qzx1k)$9#d3ews&4*_-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG') or True
+DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = ['jokuspokus.com', 'www.jokuspokus.com', 'localhost']
 
