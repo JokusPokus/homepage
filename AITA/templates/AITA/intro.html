@@ -1,0 +1,33 @@
+{% extends 'AITA/base.html' %}
+{% load static %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block css-imports %}
+    <link rel="stylesheet" href="{% static 'AITA/css/landing.css' %}">
+    <link rel="stylesheet" href="{% static 'AITA/css/intro.css' %}">
+{% endblock %}
+
+{% block content %}
+    <!-- The video -->
+    <video autoplay muted loop id="browsingVideo">
+        <source src="{% static 'AITA/media/dark_browsing.mp4' %}" type="video/mp4">
+    </video>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+        <p class="mt-5">In the famous subreddit
+            <a href="https://www.reddit.com/r/AmItheAsshole/" target="_blank" class="highlight">
+                <span>r/AmItheAsshole</span>
+            </a>,
+            users describe a situation<br>in which they believe
+            they <strong>might have acted</strong> like an asshole.</p>
+        <p>Then, the community returns a verdict.</p>
+        <p>Can you guess what the majority thinks?</p>
+        <p>
+            <a href="{% url 'AITA:post' %}">
+                <button id="next"><h1>&rightarrowtail;</h1></button>
+            </a>
+        </p>
+    </div>
+{% endblock %}

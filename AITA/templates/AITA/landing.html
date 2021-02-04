@@ -1,0 +1,30 @@
+{% extends 'AITA/base.html' %}
+{% load static %}
+
+{% block css-imports %}
+    <link rel="stylesheet" href="{% static 'AITA/css/landing.css' %}">
+{% endblock %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+    <div class="title">
+
+        <h1>Am I the<br/>Asshole?</h1>
+
+        <a href="{% url 'AITA:intro' %}"><button id="next"><h1>&rightarrowtail;</h1></button></a>
+
+    </div>
+
+
+    <script>
+        $( '#next' ).mouseover(function() {
+            $( 'body' ).css( 'animation', 'change-color-to 1s forwards')
+        })
+
+        $( '#next' ).mouseout(function() {
+            $( 'body' ).css( 'animation', 'change-color-back 1s forwards')
+        })
+
+    </script>
+{% endblock %}

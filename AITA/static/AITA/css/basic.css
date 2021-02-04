@@ -1,0 +1,63 @@
+html, body {
+    width:100%;
+    height: 100%;
+}
+
+body {
+    box-shadow: inset 0 0 100px black;
+    background-color: lightslategrey;
+}
+
+#asshole, #no-asshole {
+    width: 60%;
+    padding: 14px 40px;
+    border-radius: 4px;
+}
+
+#asshole:hover {
+    background-color: #f8f9fa;
+    color: black;
+    border-color: #f8f9fa;
+}
+
+#no-asshole:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.main-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%
+}
+
+.box {
+    height: 40vh;
+    width: 100%;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+@keyframes change-color-correct {
+    to {background-color: #3D9970;}
+}
+
+@keyframes change-color-incorrect {
+    to {background-color: #DC143C	;}
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+

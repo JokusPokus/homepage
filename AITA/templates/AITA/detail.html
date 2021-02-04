@@ -1,0 +1,84 @@
+{% extends 'AITA/base.html' %}
+
+{% load static %}
+
+{% block css-imports %}
+    <link rel="stylesheet" href="{% static 'AITA/css/landing.css' %}">
+    <link rel="stylesheet" href="{% static 'AITA/css/styles.css' %}">
+
+{% endblock %}
+
+{% block title %}AITA?{% endblock %}
+
+{% block content %}
+    <div class="container main-container">
+        <div class="row main-row">
+
+            <h2><strong>{{ post.title }}</strong></h2>
+
+
+            <div id="content-1" class="box sketchy overflow-auto my-3 custom-scrollbar-css">
+                <p>{{ post.body|linebreaks|safe }}</p>
+            </div>
+
+            <div class="col-5">
+                <button type="button" id="asshole" class="btn btn-dark mt-3 float-sm-end">Asshole</button>
+            </div>
+
+            <div class="col-2 text-center">
+                <a href="{% url 'AITA:post' %}">
+                    <button id="next"><h1 class="mt-3">&rightarrowtail;</h1></button>
+                </a>
+            </div>
+
+
+            <div class="col-5 text-left">
+                <button type="button" id="no-asshole" class="btn-light mt-3">Not an Asshole</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        $('#asshole').click(function () {
+            if ({{ post.is_asshole }} == 1
+        )
+            {
+                $('body').css('animation', 'change-color-correct 1s forwards');
+            }
+        else
+            {
+                $('body').css('animation', 'change-color-incorrect 1s forwards');
+            }
+            ;
+            $('#asshole').css('visibility', 'hidden');
+            $('#no-asshole').css('visibility', 'hidden');
+            $('#next').css('visibility', 'visible');
+        });
+
+        $('#no-asshole').click(function () {
+            if ({{ post.is_asshole }} == 0
+        )
+            {
+                $('body').css('animation', 'change-color-correct 1s forwards');
+            }
+        else
+            {
+                $('body').css('animation', 'change-color-incorrect 1s forwards');
+            }
+            ;
+            $('#asshole').css('visibility', 'hidden');
+            $('#no-asshole').css('visibility', 'hidden');
+            $('#next').css('visibility', 'visible');
+        });
+
+        $(function () {
+            /* Rounded Dots Dark */
+            $("#content-1").mCustomScrollbar({
+                theme: "rounded-dots-dark"
+            });
+        });
+    </script>
+{% endblock %}
