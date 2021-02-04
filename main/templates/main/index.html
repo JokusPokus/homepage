@@ -140,8 +140,12 @@
     </div>
 </section>
 
+<div class="section-counter paralax-mf bg-image" style="background-image: url({% static 'main/img/counters-bg.png' %})">
+    <div class="overlay-mf"></div>
+</div>
+
 <!--/ Section Services Star /-->
-<section id="service" class="services-mf route">
+<section id="service" class="services-mf route sect-pt4">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -280,7 +284,9 @@
                         <div class="work-img">
                             <img src="{% static 'main/img/showcase-1.PNG' %}" alt="" class="img-fluid">
                         </div>
-                        <div class="work-content">
+                    </a>
+                    <div class="work-content">
+                        <a href="{% url 'nimAI:index' %}">
                             <div class="row">
                                 <div class="col-sm-8">
                                     <h2 class="w-title">Beat my Nim AI!</h2>
@@ -298,22 +304,23 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <p class="w-description">I created an AI agent who learns to play the game Nim.
-                                        The user can decide how many rounds a new agent is allowed to play against
-                                        itself in order to learn.
-                                        Try it out and read my
-                                        <a href="https://towardsdatascience.com/who-learns-faster-you-or-my-ai-681e442416b0"
-                                           target="_blank">
-                                            medium article</a>
-                                        for more details.
-                                    </p>
-                                </div>
+                        </a>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="w-description">I created an AI agent who learns to play the game Nim.
+                                    The user can decide how many rounds a new agent is allowed to play against
+                                    itself in order to learn.
+                                    Try it out and read my
+                                    <a href="https://towardsdatascience.com/who-learns-faster-you-or-my-ai-681e442416b0"
+                                       target="_blank">
+                                        medium article</a>
+                                    for more details.
+                                </p>
+                            </div>
 
-                            </div>
                         </div>
-                    </a>
+                    </div>
+
                 </div>
             </div>
             <div class="col-md-4">
@@ -322,7 +329,9 @@
                         <div class="work-img">
                             <img src="{% static 'main/img/showcase-2.PNG' %}" alt="" class="img-fluid">
                         </div>
-                        <div class="work-content">
+                    </a>
+                    <div class="work-content">
+                        <a href="{% url 'AITA:landing' %}">
                             <div class="row">
                                 <div class="col-sm-8">
                                     <h2 class="w-title">Am I the Asshole?</h2>
@@ -338,56 +347,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <p class="w-description">To try out Django and PostgreSQL, I used data from the
-                                        subreddit
-                                        "r/AmItheAsshole", in which Reddit users describe a situation and ask the
-                                        community whether they believe the original author had behaved like an asshole.
-                                        On my web app, users are asked to guess the community's verdict - asshole or
-                                        not an asshole?
-                                    </p>
-                                </div>
+                        </a>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="w-description">To try out Django and PostgreSQL, I used data from the
+                                    subreddit
+                                    "r/AmItheAsshole", in which Reddit users describe a situation and ask the
+                                    community whether they believe the original author had behaved like an asshole.
+                                    On my web app, users are asked to guess the community's verdict - asshole or
+                                    not an asshole?
+                                </p>
                             </div>
                         </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="work-box">
-                    <a href="{% url 'AITA:landing' %}">
-                        <div class="work-img">
-                            <img src="{% static 'main/img/showcase-2.PNG' %}" alt="" class="img-fluid">
-                        </div>
-                        <div class="work-content">
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <h2 class="w-title">Am I the Asshole?</h2>
-                                    <div class="w-more">
-                                        <span class="w-ctegory">Web Dev | Django | PostgreSQL</span>
-                                        <br>
-                                        <span class="w-date">January 2021</span>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="w-like">
-                                        <span class="ion-ios-plus-outline"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <p class="w-description">To try out Django and PostgreSQL, I used data from the
-                                        subreddit
-                                        "r/AmItheAsshole", in which Reddit users describe a situation and ask the
-                                        community whether they believe the original author had behaved like an asshole.
-                                        On my web app, users are asked to guess the community's verdict - asshole or
-                                        not an asshole?
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>

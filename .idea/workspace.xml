@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f0fcaa-26cb-494d-b528-d61faf4df4a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AITA/static/AITA/img/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AITA/static/AITA/css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/AITA/static/AITA/css/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AITA/static/AITA/css/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/AITA/static/AITA/css/landing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AITA/templates/AITA/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/AITA/templates/AITA/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612005086197</updated>
-      <workItem from="1612005087431" duration="45893000" />
+      <workItem from="1612005087431" duration="46757000" />
     </task>
     <servers />
   </component>
