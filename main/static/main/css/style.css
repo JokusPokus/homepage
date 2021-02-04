@@ -93,16 +93,13 @@ a:hover {
 
 .overlay-mf {
   background-color: transparent;
-}
-
-.overlay-mf {
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-
+  opacity: 0.5;
 }
 
 .paralax-mf {
