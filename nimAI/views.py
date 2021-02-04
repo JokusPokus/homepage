@@ -23,6 +23,7 @@ def index(request):
     request.session["high_score"] = request.session.get("high_score", 0)
     context = {"high_score": request.session["high_score"]}
 
+    request.session.modified = True
     return render(request, "nimAI/index.html", context)
 
 
@@ -31,11 +32,16 @@ def reset(request):
     Reset the board without training the AI agent again.
     """
     reset_board(request.session, board=INITIAL_BOARD.copy())
+
     context = {
         "new_board": request.session["current_board"],
+        "new_board_len_range": range(len(request.session["current_board"])),
+        "row_ranges": [range(row) for row in request.session["current_board"]],
         "winner": request.session["winner"],
         "high_score": request.session["high_score"]
     }
+
+    request.session.modified = True
     return render(request, "nimAI/nim.html", context)
 
 
@@ -47,6 +53,7 @@ def show_training_options(request):
     request.session["high_score"] = request.session.get("high_score", 0)
     context = {"high_score": request.session["high_score"]}
 
+    request.session.modified = True
     return render(request, "nimAI/nim_train.html", context)
 
 
@@ -85,6 +92,7 @@ def train_and_show_board(request):
         "high_score": request.session["high_score"]
     }
 
+    request.session.modified = True
     return render(request, "nimAI/nim.html", context)
 
 
@@ -94,6 +102,7 @@ def send_ai_move(request):
     Request an AI move and send it back to client as JSON.
     Requests are managed via AJAX.
     """
+    print("Board before player move:", request.session["current_board"])
 
     def get_player_move(session, request):
         pile = amount = None
@@ -102,17 +111,26 @@ def send_ai_move(request):
             if request.POST.getlist(f"row_{i}"):  # e.g., ["Clicked", "Clicked", "Clicked]
                 pile = i
                 amount = len(request.POST.getlist(f"row_{i}"))
+
+        print("Player pile, amount:", pile, amount)
         return pile, amount
 
     # Player's move
     player_pile, player_amount = get_player_move(request.session, request)
     update_game_state(request.session, player_pile, player_amount)
 
+    print("Board after player move:", request.session["current_board"])
+
     # AI's move
     ai_pile, ai_amount = ai_move(request.session)
+
+    print("AI pile, amount:", ai_pile, ai_amount)
     update_game_state(request.session, ai_pile, ai_amount)
 
+    print("Board after AI move:", request.session["current_board"])
+
     if ai_lost(request.session["current_board"]):
+        print("ai lost")
         declare_human_winner(request.session)
         update_high_score(request.session)
 
@@ -123,4 +141,5 @@ def send_ai_move(request):
         "high_score": request.session["high_score"]
     }
 
+    request.session.modified = True
     return JsonResponse(data)

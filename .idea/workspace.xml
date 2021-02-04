@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="48f0fcaa-26cb-494d-b528-d61faf4df4a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nimAI/templates/nimAI/nim.html" beforeDir="false" afterPath="$PROJECT_DIR$/nimAI/templates/nimAI/nim.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nimAI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/nimAI/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -82,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612005086197</updated>
-      <workItem from="1612005087431" duration="33839000" />
+      <workItem from="1612005087431" duration="35398000" />
     </task>
     <servers />
   </component>
