@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48f0fcaa-26cb-494d-b528-d61faf4df4a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/img/work-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\schmi\PycharmProjects\homepage\nimAI\static\nimAI" />
+      <recent name="C:\Users\schmi\PycharmProjects\homepage\nimAI\static\css" />
+      <recent name="C:\Users\schmi\PycharmProjects\homepage\nimAI\templates\nimAI" />
       <recent name="C:\Users\schmi\PycharmProjects\homepage\main\templates\main" />
     </key>
   </component>
@@ -80,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612005086197</updated>
-      <workItem from="1612005087431" duration="24529000" />
+      <workItem from="1612005087431" duration="33020000" />
     </task>
     <servers />
   </component>

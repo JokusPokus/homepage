@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['jokuspokus.com', 'www.jokuspokus.com', 'localhost']
 
 INSTALLED_APPS = [
     'main.apps.MainConfig',
+    'nimAI.apps.NimAIConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', include('main.urls', namespace='main')),
+    path('showcase/nimAI/', include('nimAI.urls', namespace='nimAI')),
     path('admin/', admin.site.urls),
 ]
