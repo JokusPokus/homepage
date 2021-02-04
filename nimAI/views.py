@@ -80,6 +80,7 @@ def train_and_show_board(request):
     context = {
         "new_board": request.session["current_board"],
         "new_board_len_range": range(len(request.session["current_board"])),
+        "row_ranges": [range(row) for row in request.session["current_board"]],
         "winner": request.session["winner"],
         "high_score": request.session["high_score"]
     }

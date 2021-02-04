@@ -1,5 +1,6 @@
 {% extends "nimAI/layout.html" %}
 {% load static %}
+{% load index %}
 
 {% block body %}
 
@@ -10,7 +11,7 @@
             <ul id="board" class="mb-3 mx-3 board-list">
                 {% for i in new_board_len_range %}
                     <div class="row board-list__row" id="row_{{ i }}">
-                        {% for j in new_board.i %}
+                        {% for j in row_ranges|index:i %}
                             <li class="bounce-in-top board-list__item">
                                 <input class="board-list__check" type="checkbox" id="coin{{ i }}{{ j }}"
                                        name="row_{{ i }}"
