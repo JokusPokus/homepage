@@ -64,6 +64,16 @@ a:hover {
 #credits > div {
   float: left;
 }
+#jokus-pokus {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  height: 90px;
+}
+#jokus-pokus > a img {
+  float: right;
+  height: 100%;
+}
 .content {
   width: 60%;
   margin: 0 auto;
