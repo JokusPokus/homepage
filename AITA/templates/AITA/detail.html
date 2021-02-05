@@ -18,7 +18,11 @@
 
 
             <div id="content-1" class="box sketchy overflow-auto my-3 custom-scrollbar-css">
-                <p>{{ post.body|linebreaks|safe }}</p>
+                <div class="post">
+                    <p>{{ post.body|linebreaks|safe }}</p>
+                </div>
+                <p class="feedback-correct hidden-element"><strong>Correct!</strong></p>
+                <p class="feedback-incorrect hidden-element"><strong>Incorrect!</strong></p>
             </div>
 
             <div class="col-5">
@@ -47,10 +51,14 @@
         )
             {
                 $('body').css('animation', 'change-color-correct 1s forwards');
+                $('.post').addClass('hidden-element');
+                $('.feedback-correct').removeClass('hidden-element');
             }
         else
             {
                 $('body').css('animation', 'change-color-incorrect 1s forwards');
+                $('.post').addClass('hidden-element');
+                $('.feedback-incorrect').removeClass('hidden-element');
             }
             ;
             $('#asshole').css('visibility', 'hidden');
@@ -63,10 +71,14 @@
         )
             {
                 $('body').css('animation', 'change-color-correct 1s forwards');
+                $('.post').addClass('hidden-element');
+                $('.feedback-correct').removeClass('hidden-element');
             }
         else
             {
                 $('body').css('animation', 'change-color-incorrect 1s forwards');
+                $('.post').addClass('hidden-element');
+                $('.feedback-incorrect').removeClass('hidden-element');
             }
             ;
             $('#asshole').css('visibility', 'hidden');

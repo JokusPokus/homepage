@@ -99,7 +99,9 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .paralax-mf {
@@ -1271,4 +1273,16 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+
+.quote {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  width: 70%;
+}
+
+.blurry-text {
+  text-shadow: 0 0 1.5px white;
+  color: transparent;
 }

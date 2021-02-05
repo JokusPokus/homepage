@@ -72,3 +72,14 @@ button {
   height: 100%;
 }
 
+button:focus,
+button:active:focus{
+    outline:none;
+}
+
+button:focus{
+    text-decoration:none;
+}
+button:hover{
+    text-decoration:none;
+}
