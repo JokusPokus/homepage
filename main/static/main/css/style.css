@@ -1286,3 +1286,9 @@ footer .credits a {
   text-shadow: 0 0 1.5px white;
   color: transparent;
 }
+
+@media (max-width: 60em) {
+.quote {
+display: none;
+}
+}
