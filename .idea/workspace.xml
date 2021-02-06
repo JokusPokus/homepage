@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="48f0fcaa-26cb-494d-b528-d61faf4df4a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AITA/templates/AITA/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/AITA/templates/AITA/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/img/counters-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/img/goodbye.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/img/goodbye.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/img/post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/img/square.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/img/square.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nimAI/templates/nimAI/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/nimAI/templates/nimAI/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612005086197</updated>
-      <workItem from="1612005087431" duration="51627000" />
+      <workItem from="1612005087431" duration="55367000" />
     </task>
     <servers />
   </component>

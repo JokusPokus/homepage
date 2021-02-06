@@ -11,7 +11,7 @@
 
     <!-- Favicons -->
     <link href="{% static 'main/img/favicon.png' %}" rel="icon">
-    <link href="{% static 'main/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+    <link href="{% static 'main/img/favicon.png' %}" rel="apple-touch-icon">
 
     <!-- Bootstrap CSS File -->
     <link href="{% static 'main/lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -20,8 +20,8 @@
     <link href="{% static 'main/lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
     <link href="{% static 'main/lib/animate/animate.min.css' %}" rel="stylesheet">
     <link href="{% static 'main/lib/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
-    <link href="{% static 'main/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
-    <link href="{% static 'main/lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
+{#    <link href="{% static 'main/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">#}
+{#    <link href="{% static 'main/lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">#}
 
     <!-- Main Stylesheet File -->
     <link href="{% static 'main/css/style.css' %}" rel="stylesheet">
@@ -52,13 +52,13 @@
                     <a class="nav-link js-scroll active" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll" href="#about">About</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link js-scroll" href="#service">Skills</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll" href="#work">Showcase</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll" href="#contact">Contact</a>
@@ -69,7 +69,7 @@
 </nav>
 <!--/ Nav End /-->
 
-<!--/ Intro Skew Star /-->
+<!--/ Intro Skew Start /-->
 <div id="home" class="intro route bg-image" style="background-image: url({% static 'main/img/intro-bg.jpeg' %})">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
@@ -86,70 +86,8 @@
 </div>
 <!--/ Intro Skew End /-->
 
-<section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="box-shadow-full">
-                    <div class="row">
-                        <div class="col-md-3">
 
-                            <div class="about-img">
-                                <img src="{% static 'main/img/square.jpg' %}" class="img-fluid rounded b-shadow-a"
-                                     alt="">
-                            </div>
-                            <div class="about-img">
-                                <img src="{% static 'main/img/favicon.png' %}" class="img-fluid">
-                            </div>
-
-                        </div>
-                        <div class="col-md-1">
-
-                        </div>
-                        <div class="col-md-8">
-                            <div class="about-me pt-4 pt-md-0">
-                                <div class="title-box-2">
-                                    <h5 class="title-left">
-                                        About me
-                                    </h5>
-                                </div>
-                                <p class="lead">
-                                    For five years, I studied human intelligence and decision making.
-                                    After completing a B.Sc. in Psychology and a research M.Sc. in Neuroeconomics,
-                                    the logical next step would have been a PhD.
-                                </p>
-                                <p class="lead">
-                                    However, I didn't want to end up working as a researcher. Why?
-                                    Because I love building stuff!
-                                </p>
-                                <p class="lead">
-                                    That's why I'm currently doing another B.Sc. in Software Engineering
-                                    at CODE University Berlin. My new passion is Machine Learning and its
-                                    practical applications. My career goal is becoming a Machine Learning Engineer.
-                                </p>
-                                <p class="lead">
-                                    When I'm not coding, I love writing and playing music, playing tennis,
-                                    and learning chess.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="section-counter paralax-mf bg-image" style="background-image: url({% static 'main/img/counters-bg.png' %})">
-    <div class="overlay-mf">
-        <p class="quote blurry-text">
-            “A computer is like a mischievous genie. It will give you exactly
-            what you asked for, but not always what you want.” — Joe Sondow
-        </p>
-    </div>
-</div>
-
-<!--/ Section Services Star /-->
+<!--/ Section Skills Start /-->
 <section id="service" class="services-mf route sect-pt4">
     <div class="container">
         <div class="row">
@@ -260,18 +198,20 @@
         </div>
     </div>
 </section>
-<!--/ Section Services End /-->
+<!--/ Section Skills End /-->
 
-<div class="section-counter paralax-mf bg-image" style="background-image: url({% static 'main/img/counters-bg.png' %})">
+
+<div class="section-counter paralax-mf bg-image" style="background-image: url({% static 'main/img/counters-bg.jpg' %})">
     <div class="overlay-mf">
         <p class="quote blurry-text">
-            “Should array indices start at 0 or 1? My compromise of 0.5 was rejected without,
-            I thought, proper consideration.” — Stan Kelly-Bootle
+            “A computer is like a mischievous genie. It will give you exactly
+            what you asked for, but not always what you want.” — Joe Sondow
         </p>
     </div>
 </div>
 
-<!--/ Section Portfolio Star /-->
+
+<!--/ Section Showcase Start /-->
 <section id="work" class="portfolio-mf sect-pt4 route">
     <div class="container">
         <div class="row">
@@ -375,7 +315,7 @@
         </div>
     </div>
 </section>
-<!--/ Section Portfolio End /-->
+<!--/ Section Showcase End /-->
 
 {% comment %}<!--/ Section Testimonials Star /-->
 <div class="testimonials paralax-mf bg-image" style="background-image: url({% static 'main/img/counters-bg.png' %})">
@@ -496,9 +436,83 @@
 </section>{% endcomment %}
 <!--/ Section Blog End /-->
 
-<!--/ Section Contact-Footer Star /-->
+<div class="section-counter paralax-mf bg-image" style="background-image: url({% static 'main/img/counters-bg.jpg' %})">
+    <div class="overlay-mf">
+        <p class="quote blurry-text">
+            “Should array indices start at 0 or 1? My compromise of 0.5 was rejected without,
+            I thought, proper consideration.” — Stan Kelly-Bootle
+        </p>
+    </div>
+</div>
+
+
+<!-- Section About Start /-->
+<section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="box-shadow-full">
+                    <div class="row">
+                        <div class="col-md-3">
+
+                            <div class="about-img">
+                                <img src="{% static 'main/img/square.jpg' %}" class="img-fluid rounded b-shadow-a"
+                                     alt="">
+                            </div>
+
+                        </div>
+                        <div class="col-md-1">
+                            <!--Placeholder-->
+                        </div>
+                        <div class="col-md-8">
+                            <div class="about-me pt-4 pt-md-0">
+                                <div class="title-box-2">
+                                    <h5 class="title-left">
+                                        About me
+                                    </h5>
+                                </div>
+                                <p class="lead">
+                                    For five years, I studied human intelligence and decision making.
+                                    After completing a B.Sc. in Psychology and a research M.Sc. in Neuroeconomics,
+                                    the logical next step would have been a PhD.
+                                </p>
+                                <p class="lead">
+                                    However, I didn't want to end up working as a researcher. Why?
+                                    Because I love building stuff!
+                                </p>
+                                <p class="lead">
+                                    That's why I'm currently doing another B.Sc. in Software Engineering
+                                    at CODE University Berlin. My new passion is Machine Learning and its
+                                    practical applications. My career goal is becoming a Machine Learning Engineer.
+                                </p>
+                                <p class="lead">
+                                    When I'm not coding, I love writing and playing music, playing tennis,
+                                    and learning chess.
+                                </p>
+                                <p class="lead">
+                                    Find out more on LinkedIn!
+                                </p>
+                                <div class="socials">
+                                    <ul>
+                                        <li><a href="https://www.linkedin.com/in/jakob-schmitt/" target="_blank">
+                                            <span class="ico-circle"><i class="ion-social-linkedin"></i></span>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section About End /-->
+
+
+<!--/ Section Contact-Footer Start /-->
 <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
-         style="background-image: url({% static 'main/img/counters-bg.png' %})">
+         style="background-image: url({% static 'main/img/counters-bg.jpg' %})">
     <div class="overlay-mf"></div>
     <div class="container">
         <div class="row">
@@ -512,7 +526,10 @@
                                          class="img-fluid rounded b-shadow-a">
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-1">
+                                <!--Placeholder-->
+                            </div>
+                            <div class="col-md-7">
                                 <div class="title-box-2 pt-4 pt-md-0">
                                     <h5 class="title-left">
                                         Get in Touch
@@ -594,8 +611,8 @@
 <script src="{% static 'main/lib/easing/easing.min.js' %}"></script>
 <script src="{% static 'main/lib/counterup/jquery.waypoints.min.js' %}"></script>
 <script src="{% static 'main/lib/counterup/jquery.counterup.js' %}"></script>
-<script src="{% static 'main/lib/owlcarousel/owl.carousel.min.js' %}"></script>
-<script src="{% static 'main/lib/lightbox/js/lightbox.min.js' %}"></script>
+{#<script src="{% static 'main/lib/owlcarousel/owl.carousel.min.js' %}"></script>#}
+{#<script src="{% static 'main/lib/lightbox/js/lightbox.min.js' %}"></script>#}
 <script src="{% static 'main/lib/typed/typed.min.js' %}"></script>
 <!-- Contact Form JavaScript File -->
 
