@@ -1,7 +1,6 @@
 import time
 
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
-from django.core.management import call_command
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
