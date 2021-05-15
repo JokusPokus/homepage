@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f0fcaa-26cb-494d-b528-d61faf4df4a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/UI/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/UI/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UI/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UI/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +40,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/UI" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\schmi\PycharmProjects\homepage\AITA\static\AITA\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\schmi\PycharmProjects\homepage\AITA\static\AITA" />
       <recent name="C:\Users\schmi\PycharmProjects\homepage\nimAI\static\nimAI" />
       <recent name="C:\Users\schmi\PycharmProjects\homepage\nimAI\static\css" />
       <recent name="C:\Users\schmi\PycharmProjects\homepage\nimAI\templates\nimAI" />
       <recent name="C:\Users\schmi\PycharmProjects\homepage\main\templates\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\schmi\PycharmProjects\homepage\tests\UI" />
+      <recent name="C:\Users\schmi\PycharmProjects\homepage\AITA\static\AITA\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +102,7 @@
       <workItem from="1617880994314" duration="1400000" />
       <workItem from="1618137131005" duration="1763000" />
       <workItem from="1618486850534" duration="635000" />
-      <workItem from="1621074511213" duration="647000" />
+      <workItem from="1621074511213" duration="4353000" />
     </task>
     <servers />
   </component>

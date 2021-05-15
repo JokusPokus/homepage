@@ -108,3 +108,5 @@ media/
 *.pid
 
 secret_key.txt
+
+chromedriver.exe
