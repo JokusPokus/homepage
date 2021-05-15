@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="48f0fcaa-26cb-494d-b528-d61faf4df4a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +93,10 @@
       <workItem from="1615287178381" duration="1256000" />
       <workItem from="1615907993436" duration="3184000" />
       <workItem from="1617821934719" duration="12000" />
+      <workItem from="1617880994314" duration="1400000" />
+      <workItem from="1618137131005" duration="1763000" />
+      <workItem from="1618486850534" duration="635000" />
+      <workItem from="1621074511213" duration="317000" />
     </task>
     <servers />
   </component>
@@ -101,10 +104,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="235" key="FileChooserDialogImpl" timestamp="1617821943427">
+    <state x="686" y="235" key="FileChooserDialogImpl" timestamp="1618486886518">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="686" y="235" key="FileChooserDialogImpl/-308.1200.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1617821943427" />
+    <state x="686" y="235" key="FileChooserDialogImpl/-308.1200.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1618486886518" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613471840434" />
   </component>
 </project>
