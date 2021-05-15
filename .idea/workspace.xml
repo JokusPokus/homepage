@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f0fcaa-26cb-494d-b528-d61faf4df4a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/UI/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nimAI/templates/nimAI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nimAI/templates/nimAI/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nimAI/templates/nimAI/nim_train.html" beforeDir="false" afterPath="$PROJECT_DIR$/nimAI/templates/nimAI/nim_train.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/UI/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UI/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,7 @@
       <workItem from="1617880994314" duration="1400000" />
       <workItem from="1618137131005" duration="1763000" />
       <workItem from="1618486850534" duration="635000" />
-      <workItem from="1621074511213" duration="4353000" />
+      <workItem from="1621074511213" duration="10039000" />
     </task>
     <servers />
   </component>
